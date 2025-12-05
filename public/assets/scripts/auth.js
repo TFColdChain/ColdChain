@@ -192,7 +192,7 @@ window.guardarCambiosPerfil = function () {
 window.cerrarSesion = function () {
   if (confirm("¿Cerrar sesión?")) {
     localStorage.removeItem(SESSION_KEY);
-    window.location.href = "ColdChain.html";
+    window.location.href = "index.html";
   }
 };
 
@@ -217,6 +217,6 @@ window.confirmarEliminacionCuenta = function () {
     localStorage.removeItem(SESSION_KEY);
 
     alert("Cuenta eliminada.");
-    window.location.href = "ColdChain.html";
+    window.location.href = "index.html";
   }
 };
